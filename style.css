@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://astanait.edu.kz/wp-content/uploads/2020/11/DSC01570-scaled.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+.home{
+    margin-top: 67px;
+    background-color: white;
+    text-align:center;
+    font-family: 'Denk One', sans-serif;
+    animation-name: backInLeft;
+    animation-duration: 1s;    
+}
+
+.foot{
+    background-color: white;
+    text-align:center;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    font-family: 'Denk One', sans-serif;
+}
+
+.reserve{
+    margin-top: 67px;
+    height: 1000px;
+    width: 650px;
+    margin: auto;
+}
+
+.about{
+    background-color: white;
+    /* margin: auto; */
+    width: 1200px;
+    margin: auto;
+    animation-name: backInRight;
+    animation-duration: 1s;
+    font-family: 'Fugaz One', cursive;
+    
+    
+}
+.navbar{
+    color: black;
+    animation-name: backInLeft;
+    animation-duration: 1s;
+    font-size: 24px;
+    font-family: 'Denk One', sans-serif;
+    
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: #555555;
+}
+
+.mfo{
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    animation-name: backInLeft;
+    animation-duration: 1s;
+    font-family: 'Fugaz One', cursive;
+}
+
+.container{
+    background-color:white;
+    width: 1200px;
+    margin: auto;
+    animation-name: fadeInDown;
+    animation-duration: 0.75s;
+}
+
+.carousel{
+    float: center;
+    width: 1200px;
+    height: 600px;
+    animation-name: fadeInUp;
+    animation-duration: 0.75s;
+    margin: auto;
+}
